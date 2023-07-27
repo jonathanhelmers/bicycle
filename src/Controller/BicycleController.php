@@ -35,6 +35,7 @@ class BicycleController extends AbstractController
     }
 
     /**
+     * Trigger riding of bike
      * @param EntityManagerInterface $entityManager
      * @param string $id
      *
@@ -55,6 +56,7 @@ class BicycleController extends AbstractController
     }
 
     /**
+     * Trigger gear shift up
      * @param EntityManagerInterface $entityManager
      * @param string $id
      *
@@ -75,6 +77,7 @@ class BicycleController extends AbstractController
     }
 
     /**
+     * Trigger gear shift down
      * @param EntityManagerInterface $entityManager
      * @param string $id
      *
@@ -95,6 +98,7 @@ class BicycleController extends AbstractController
     }
 
     /**
+     * Action to trigger inflating of tires
      * @param EntityManagerInterface $entityManager
      * @param string $id
      *
